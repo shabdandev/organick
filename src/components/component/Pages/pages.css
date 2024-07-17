@@ -1,0 +1,51 @@
+.pages {
+  padding: 60px 0;
+}
+
+.pages1 {
+  text-align: center;
+  margin: 60px 0 40px 0;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+}
+
+.pages2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  button {
+    width: 240px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #335b6b;
+    color: #335b6b;
+  }
+}
+
+.pages3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  h1 {
+    margin-top: 220px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+  }
+}

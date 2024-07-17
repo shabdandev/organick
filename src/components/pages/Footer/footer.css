@@ -1,0 +1,51 @@
+.footer {
+  .image {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .image {
+      position: relative;
+    }
+    .ttt {
+      position: absolute;
+      left: 350px;
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+  }
+  .input {
+    position: absolute;
+    right: 300px;
+    bottom: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    input {
+      width: 400px;
+      padding: 15px 20px;
+      border-radius: 15px;
+      background: #fff;
+      color: black;
+      font-size: 20px;
+      border: none;
+    }
+    button {
+      width: 150px;
+      padding: 15px 30px;
+      border-radius: 15px;
+      background: #274c5b;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.footer-end {
+  margin-top: 150px;
+}
